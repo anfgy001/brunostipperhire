@@ -1,0 +1,72 @@
+﻿
+#bodycolor {
+    background-color: #e3dfe0;
+}
+
+#navbarcolor {
+    background-color: #05305f;
+}
+
+.navbar-nav li {
+    color: white;
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-header {
+    padding-left: 20px;
+    padding-bottom: 1.9px;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+
+.navbar-nav li {
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+
+.navbar-nav li .highlighted {
+    background-color:  lightskyblue;
+}
+
+.highlighted {
+    background-color: lightskyblue;
+}
+
+#navbar-item-hovered {
+    background-color: lightskyblue !important;
+}
+
+@font-face {
+    font-family: Rational Integer;
+    src: url("../fonts/rational-integer.regular.ttf") format("truetype");
+}
+
+.navbar-brand {
+    font-size:30px;
+    font-family: Rational Integer;
+    margin-top:-2px;
+}
+
+#sub-item {
+    width: 50% !important;
+}
+
+.item {
+
+}
+
+.carousel-caption {
+    background-color: rgba(193,193,193,0.7);
+    padding-top: 0px;
+}
